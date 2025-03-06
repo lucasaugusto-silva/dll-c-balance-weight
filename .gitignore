@@ -1,0 +1,28 @@
+# Ignorar arquivos compilados e binários
+*.dll
+*.exe
+*.obj
+*.pdb
+*.lib
+*.a
+*.so
+*.out
+
+# Ignorar arquivos temporários do sistema operacional
+Thumbs.db
+.DS_Store
+*.log
+
+# Ignorar pastas de build e binárias
+build/
+bin/
+obj/
+
+# Ignorar diretórios de dependências
+node_modules/
+packages/
+.vscode/
+
+# Ignorar arquivos de configuração da IDE (se necessário)
+.vs/
+.idea/
